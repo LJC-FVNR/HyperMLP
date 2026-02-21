@@ -2,7 +2,7 @@
 
 This repository hosts the implementation of the paper `HyperMLP: An Integrated Perspective for Sequence Modeling`.
 
-We are currently developing a more efficient subsequent architecture for the model. At this stage, we release a cleaned, naive PyTorch implementation that has been refined and structured with the assistance of LLM-based tooling.
+We are currently developing a more efficient subsequent architecture for the model (we are excited to see that this subsequent architecture works very well even with O(T) linear-time mixing). As the improved architecture is still under active development, we provide at this stage a cleaned and naive PyTorch implementation of the current study, which has been refined and structured with the assistance of LLM-based tooling.
 
 We will continue to improve the efficiency and usability of this repository over time.
 
